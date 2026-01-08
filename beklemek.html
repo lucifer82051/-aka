@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<title>...</title>
+
+<style>
+  body {
+    margin: 0;
+    background: black;
+    color: #00ff00;
+    font-family: "Courier New", monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .box {
+    text-align: center;
+    font-size: 32px;
+    animation: blink 1s infinite;
+  }
+
+  @keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0.3; }
+    100% { opacity: 1; }
+  }
+</style>
+
+<script>
+  setTimeout(() => {
+    window.location.href = "https://www.google.com";
+  }, 5000);
+</script>
+
+</head>
+<body>
+
+<div class="box">
+  HACKLENDİNİZ
+</div>
+
+</body>
+</html>
